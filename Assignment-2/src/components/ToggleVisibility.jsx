@@ -26,7 +26,9 @@ const ToggleVisibility = () => {
             </div>
             <br/>
             <button onClick={visibilityHandler}>
-                Show
+                {
+                    visibility ? "Hide" : "Show"
+                }
             </button>
             <p>
                 {
